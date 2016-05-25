@@ -1,0 +1,52 @@
+running averroes on dacapo/pmd ...
+
+Organizing the JAR files ...
+Processing input archive: /home/aec/Desktop/averroes-home/benchmarks/dacapo/pmd.jar
+Processing library archive: /home/aec/Desktop/averroes-home/benchmarks/dacapo/pmd-deps.jar
+Processing library archive: /home/aec/Desktop/averroes-home/jre/1.6.0_45/jce.jar
+Processing library archive: /home/aec/Desktop/averroes-home/jre/1.6.0_45/rt.jar
+Processing library archive: /home/aec/Desktop/averroes-home/jre/1.6.0_45/jsse.jar
+# application classes: 527
+# library classes: 19762
+
+Preparing Averroes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-app.jar
+Adding library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-lib.jar
+
+Loading classes ...
+Soot loaded the input classes in 5.41 seconds.
+
+Creating the class hierarchy for the placeholder library ...
+# initial application classes: 527
+# initial library classes: 305
+# initial library methods: 7337
+# initial library fields: 2184
+# referenced library methods: 617
+# referenced library fields: 31
+
+Cleaning up the class hierarchy ...
+# removed library methods: 6055
+# removed library fields: 2153
+# final library methods: 1346
+# final library fields: 31
+
+Generating extra library classes ...
+# generated library classes: 26
+# generated library methods: 92
+
+Creating the skeleton for Averroes's main library class ...
+Generating the method bodies for the placeholder library classes ...
+Generating empty basic library classes required by Soot ...
+Placeholder library classes created and validated in 3.18 seconds.
+Placeholder library JAR file verified in 2.85 seconds.
+Total time (without verification) is 8.59 seconds.
+Total time (with verification) is 11.44 seconds.
+Elapsed time: 16.92 seconds.
+Original application size is 1429792 bytes.
+Original library size is 55249528 bytes.
+Placeholder library size is 188989 bytes.
+Averroes library class size is 17110 bytes.
+Number of original library methods is 176498.
+Number of placeholder library methods is 1440.
+Number of Averroes library class methods is 3.
+

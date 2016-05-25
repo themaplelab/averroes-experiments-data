@@ -1,0 +1,53 @@
+running averroes on specjvm/javac ...
+
+Organizing the JAR files ...
+Processing input archive: /home/aec/Desktop/averroes-home/benchmarks/specjvm/javac.zip
+Processing library archive: /home/aec/Desktop/averroes-home/benchmarks/specjvm/spec.zip
+Processing library archive: /home/aec/Desktop/averroes-home/benchmarks/specjvm/sunrsasign.jar
+Processing library archive: /home/aec/Desktop/averroes-home/jre/1.6.0_45/jce.jar
+Processing library archive: /home/aec/Desktop/averroes-home/jre/1.6.0_45/rt.jar
+Processing library archive: /home/aec/Desktop/averroes-home/jre/1.6.0_45/jsse.jar
+# application classes: 176
+# library classes: 17941
+
+Preparing Averroes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/javac/organized-app.jar
+Adding library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/javac/organized-lib.jar
+
+Loading classes ...
+Soot loaded the input classes in 4.7 seconds.
+
+Creating the class hierarchy for the placeholder library ...
+# initial application classes: 176
+# initial library classes: 79
+# initial library methods: 1487
+# initial library fields: 313
+# referenced library methods: 183
+# referenced library fields: 7
+
+Cleaning up the class hierarchy ...
+# removed library methods: 1136
+# removed library fields: 306
+# final library methods: 372
+# final library fields: 7
+
+Generating extra library classes ...
+# generated library classes: 3
+# generated library methods: 7
+
+Creating the skeleton for Averroes's main library class ...
+Generating the method bodies for the placeholder library classes ...
+Generating empty basic library classes required by Soot ...
+Placeholder library classes created and validated in 1.5 seconds.
+Placeholder library JAR file verified in 0.68 seconds.
+Total time (without verification) is 6.2 seconds.
+Total time (with verification) is 6.88 seconds.
+Elapsed time: 11.83 seconds.
+Original application size is 561487 bytes.
+Original library size is 50603694 bytes.
+Placeholder library size is 47940 bytes.
+Averroes library class size is 3851 bytes.
+Number of original library methods is 160851.
+Number of placeholder library methods is 381.
+Number of Averroes library class methods is 3.
+
