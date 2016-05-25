@@ -1,0 +1,9 @@
+running wala for dacapo/chart
+...
+[Wala] Solution found in 12.07 seconds.
+Total time to finish: 15.58
+=================================================
+# edges = 2315
+=================================================
+maximum resident set size: 287380
+

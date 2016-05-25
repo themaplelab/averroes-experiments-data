@@ -1,0 +1,9 @@
+running wala-averroes for specjvm/jack
+...
+[Wala] Solution found in 2.47 seconds.
+Total time to finish: 3.55
+=================================================
+# edges = 770
+=================================================
+maximum resident set size: 147332
+

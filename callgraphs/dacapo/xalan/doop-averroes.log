@@ -1,0 +1,53 @@
+running doop-averroes for dacapo/xalan
+...
+Spawning process [/u/karim/workspace/doop/alt-run-averroes, 1.6, dacapo.xalan.Main2, all-output-1.6/1/benchmarks-averroes/dacapo/xalan/organized-app.jar, all-output-1.6/1/benchmarks-averroes/dacapo/xalan/placeholder-lib.jar]
+clearing all cached results ...
+running dacapo benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/dacapo/xalan/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/xalan/placeholder-lib.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/xalan/averroes-lib-class.jar) in cache/input-facts/jre1.6/873b80bfee46ccadd06c6afb2111cdb7da9a83ecb6cafac7a6791954d894e916 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/dacapo/xalan/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/xalan/placeholder-lib.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/xalan/averroes-lib-class.jar
+elapsed time: 10.73s
+creating database in cache/input-database/jre1.6/873b80bfee46ccadd06c6afb2111cdb7da9a83ecb6cafac7a6791954d894e916 ...
+elapsed time: 1.06s
+loading fact declarations ...
+elapsed time: 5.44s
+loading facts ...
+elapsed time: 5.35s
+setting main class to dacapo.xalan.Main2
+loading context-insensitive declarations...
+elapsed time: 4.17s
+loading context-insensitive delta rules...
+elapsed time: 6.21s
+loading reflection delta rules...
+elapsed time: 4.84s
+loading client delta rules...
+elapsed time: 2.69s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 30.38s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/dacapo/xalan/organized-app.jar
+making database available at last-analysis
+array index points-to                     403858
+call graph edges (context-insensitive)    22954
+call graph edges (context-sensitive)      22954
+instance field points-to                  338625
+reachable methods (context-insensitive)   4305
+reachable methods (context-sensitive)     4305
+reachable variables (context-insensitive) 30313
+reachable variables (context-sensitive)   30313
+static field points-to                    568
+retrieving call graph edges ...
+elapsed time: 6.11s
+retrieving entry points ...
+elapsed time: 5.37s
+Total time to finish: 137.42
+=================================================
+# edges = 12482
+=================================================
+maximum resident set size: 4591840
+making the database of doop-averroes available at all-output-1.6/1/callgraphs/dacapo/xalan/doop-averroes.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 72M	../doop/cache/analysis
+

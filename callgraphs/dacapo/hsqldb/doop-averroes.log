@@ -1,0 +1,53 @@
+running doop-averroes for dacapo/hsqldb
+...
+Spawning process [/u/karim/workspace/doop/alt-run-averroes, 1.6, org.hsqldb.hsqldbDoopDriver, all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/organized-app.jar, all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/placeholder-lib.jar]
+clearing all cached results ...
+running dacapo benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/placeholder-lib.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/averroes-lib-class.jar) in cache/input-facts/jre1.6/5cce449c9a57e18c20b5c9b171f413a0b1497f16d7bb03ea01691bd031ddc7a9 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/placeholder-lib.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/averroes-lib-class.jar
+elapsed time: 13.77s
+creating database in cache/input-database/jre1.6/5cce449c9a57e18c20b5c9b171f413a0b1497f16d7bb03ea01691bd031ddc7a9 ...
+elapsed time: 1.03s
+loading fact declarations ...
+elapsed time: 5.53s
+loading facts ...
+elapsed time: 6.98s
+setting main class to org.hsqldb.hsqldbDoopDriver
+loading context-insensitive declarations...
+elapsed time: 4.48s
+loading context-insensitive delta rules...
+elapsed time: 6.47s
+loading reflection delta rules...
+elapsed time: 5.11s
+loading client delta rules...
+elapsed time: 3.05s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 83.20s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/organized-app.jar
+making database available at last-analysis
+array index points-to                     98332
+call graph edges (context-insensitive)    21992
+call graph edges (context-sensitive)      21992
+instance field points-to                  242039
+reachable methods (context-insensitive)   4968
+reachable methods (context-sensitive)     4968
+reachable variables (context-insensitive) 38651
+reachable variables (context-sensitive)   38651
+static field points-to                    822
+retrieving call graph edges ...
+elapsed time: 6.22s
+retrieving entry points ...
+elapsed time: 5.25s
+Total time to finish: 197.07
+=================================================
+# edges = 10572
+=================================================
+maximum resident set size: 5874384
+making the database of doop-averroes available at all-output-1.6/1/callgraphs/dacapo/hsqldb/doop-averroes.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 79M	../doop/cache/analysis
+

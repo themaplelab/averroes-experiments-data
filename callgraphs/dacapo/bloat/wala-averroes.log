@@ -1,0 +1,9 @@
+running wala-averroes for dacapo/bloat
+...
+[Wala] Solution found in 13.86 seconds.
+Total time to finish: 15.21
+=================================================
+# edges = 16239
+=================================================
+maximum resident set size: 259636
+

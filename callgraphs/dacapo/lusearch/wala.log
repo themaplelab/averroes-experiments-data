@@ -1,0 +1,9 @@
+running wala for dacapo/lusearch
+...
+[Wala] Solution found in 7.99 seconds.
+Total time to finish: 11.4
+=================================================
+# edges = 2496
+=================================================
+maximum resident set size: 271472
+

@@ -1,0 +1,55 @@
+running doop for specjvm/jack
+...
+Spawning process [/u/karim/workspace/doop/alt-run, 1.6, spec.benchmarks._228_jack.Main, all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar, all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-lib.jar]
+clearing all cached results ...
+running doop and generating output for graph generation for benchmark all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar ...
+running specjvm benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-lib.jar) in cache/input-facts/jre1.6/3a09e006204a238afc438d38af6fcdc538e2ad35063880e39d9e67e2687e1821 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-lib.jar
+elapsed time: 110.43s
+creating database in cache/input-database/jre1.6/3a09e006204a238afc438d38af6fcdc538e2ad35063880e39d9e67e2687e1821 ...
+elapsed time: 1.68s
+loading fact declarations ...
+elapsed time: 3.21s
+loading facts ...
+elapsed time: 34.33s
+setting main class to spec.benchmarks._228_jack.Main
+loading context-insensitive declarations...
+elapsed time: 5.74s
+loading context-insensitive delta rules...
+elapsed time: 7.33s
+loading reflection delta rules...
+elapsed time: 11.98s
+loading client delta rules...
+elapsed time: 4.69s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 70.36s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar
+making database available at last-analysis
+array index points-to                     13972
+call graph edges (context-insensitive)    45201
+call graph edges (context-sensitive)      45210
+instance field points-to                  2113997
+reachable methods (context-insensitive)   8143
+reachable methods (context-sensitive)     8143
+reachable variables (context-insensitive) 68006
+reachable variables (context-sensitive)   68006
+static field points-to                    2978
+retrieving call graph edges ...
+elapsed time: 7.79s
+retrieving reflective call graph edges ...
+elapsed time: 6.69s
+retrieving entry points ...
+elapsed time: 6.15s
+Total time to finish: 340.46
+=================================================
+# edges = 744
+=================================================
+maximum resident set size: 24941264
+making the database of doop available at all-output-1.6/1/callgraphs/specjvm/jack/doop.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 294M	../doop/cache/analysis
+

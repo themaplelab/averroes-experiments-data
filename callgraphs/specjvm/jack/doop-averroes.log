@@ -1,0 +1,53 @@
+running doop-averroes for specjvm/jack
+...
+Spawning process [/u/karim/workspace/doop/alt-run-averroes, 1.6, spec.benchmarks._228_jack.Main, all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar, all-output-1.6/1/benchmarks-averroes/specjvm/jack/placeholder-lib.jar]
+clearing all cached results ...
+running specjvm benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/specjvm/jack/placeholder-lib.jar -l all-output-1.6/1/benchmarks-averroes/specjvm/jack/averroes-lib-class.jar) in cache/input-facts/jre1.6/14be1d3849aa2923ea415d67afa37e5c56ebd5d2c3ccfb69311cbfb1c1706d93 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/specjvm/jack/placeholder-lib.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/specjvm/jack/averroes-lib-class.jar
+elapsed time: 4.76s
+creating database in cache/input-database/jre1.6/14be1d3849aa2923ea415d67afa37e5c56ebd5d2c3ccfb69311cbfb1c1706d93 ...
+elapsed time: 0.93s
+loading fact declarations ...
+elapsed time: 5.42s
+loading facts ...
+elapsed time: 1.60s
+setting main class to spec.benchmarks._228_jack.Main
+loading context-insensitive declarations...
+elapsed time: 3.75s
+loading context-insensitive delta rules...
+elapsed time: 5.62s
+loading reflection delta rules...
+elapsed time: 3.81s
+loading client delta rules...
+elapsed time: 2.16s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 9.39s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/specjvm/jack/organized-app.jar
+making database available at last-analysis
+array index points-to                     438
+call graph edges (context-insensitive)    2555
+call graph edges (context-sensitive)      2555
+instance field points-to                  6112
+reachable methods (context-insensitive)   420
+reachable methods (context-sensitive)     420
+reachable variables (context-insensitive) 4209
+reachable variables (context-sensitive)   4209
+static field points-to                    23
+retrieving call graph edges ...
+elapsed time: 4.95s
+retrieving entry points ...
+elapsed time: 4.83s
+Total time to finish: 95.16
+=================================================
+# edges = 770
+=================================================
+maximum resident set size: 1880592
+making the database of doop-averroes available at all-output-1.6/1/callgraphs/specjvm/jack/doop-averroes.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 11M	../doop/cache/analysis
+

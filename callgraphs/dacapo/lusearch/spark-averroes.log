@@ -1,0 +1,45 @@
+running spark-averroes for dacapo/lusearch
+...
+Generating the call graph from SparkAverroes.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/lusearch/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/lusearch/placeholder-lib.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/lusearch/averroes-lib-class.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 2736
+Initially reachable methods: 4
+Classes with at least one reachable method: 4
+[Spark] Pointer Assignment Graph in 1.0 seconds.
+Total types: 598
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 18
+FieldRefNodes: 2
+AllocNodes: 4
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 4 nodes.
+Now handling field references
+Worklist has 171 nodes.
+Now handling field references
+Worklist has 262 nodes.
+Now handling field references
+Worklist has 507 nodes.
+Now handling field references
+Worklist has 357 nodes.
+Now handling field references
+Worklist has 70 nodes.
+Now handling field references
+Worklist has 1 nodes.
+Now handling field references
+[Spark] Propagation in 5.0 seconds.
+[Spark] Solution found in 5.2 seconds.
+[Spark] Number of reachable methods: 1325
+size of original spark is: 3879
+Total time to finish: 9.48
+=================================================
+# edges = 2518
+=================================================
+maximum resident set size: 223956
+

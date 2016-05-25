@@ -1,0 +1,55 @@
+running doop for dacapo/chart
+...
+Spawning process [/u/karim/workspace/doop/alt-run, 1.6, dacapo.chart.Main2, all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar, all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-lib.jar]
+clearing all cached results ...
+running doop and generating output for graph generation for benchmark all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar ...
+running dacapo benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-lib.jar) in cache/input-facts/jre1.6/0d476d1b9876bbab064453ac0e1ab1c20c701647f4024558add34879b75b4128 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-lib.jar
+elapsed time: 128.84s
+creating database in cache/input-database/jre1.6/0d476d1b9876bbab064453ac0e1ab1c20c701647f4024558add34879b75b4128 ...
+elapsed time: 1.79s
+loading fact declarations ...
+elapsed time: 3.25s
+loading facts ...
+elapsed time: 40.56s
+setting main class to dacapo.chart.Main2
+loading context-insensitive declarations...
+elapsed time: 6.47s
+loading context-insensitive delta rules...
+elapsed time: 8.12s
+loading reflection delta rules...
+elapsed time: 13.47s
+loading client delta rules...
+elapsed time: 5.36s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 292.85s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar
+making database available at last-analysis
+array index points-to                     233573
+call graph edges (context-insensitive)    90802
+call graph edges (context-sensitive)      90813
+instance field points-to                  7270886
+reachable methods (context-insensitive)   17163
+reachable methods (context-sensitive)     17163
+reachable variables (context-insensitive) 144272
+reachable variables (context-sensitive)   144272
+static field points-to                    11390
+retrieving call graph edges ...
+elapsed time: 10.03s
+retrieving reflective call graph edges ...
+elapsed time: 7.65s
+retrieving entry points ...
+elapsed time: 6.68s
+Total time to finish: 610.13
+=================================================
+# edges = 2405
+=================================================
+maximum resident set size: 25441536
+making the database of doop available at all-output-1.6/1/callgraphs/dacapo/chart/doop.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 582M	../doop/cache/analysis
+

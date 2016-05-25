@@ -1,0 +1,56 @@
+running spark for dacapo/xalan
+...
+Generating the call graph from Spark.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/xalan/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/xalan/organized-lib.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 51230
+Initially reachable methods: 8
+Classes with at least one reachable method: 3
+[Spark] Pointer Assignment Graph in 0.7 seconds.
+Total types: 7107
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 19
+FieldRefNodes: 1
+AllocNodes: 5
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 5 nodes.
+Now handling field references
+Worklist has 2934 nodes.
+Now handling field references
+Worklist has 3315 nodes.
+Now handling field references
+Worklist has 3937 nodes.
+Now handling field references
+Worklist has 5733 nodes.
+Now handling field references
+Worklist has 6460 nodes.
+Now handling field references
+Worklist has 4732 nodes.
+Now handling field references
+Worklist has 3822 nodes.
+Now handling field references
+Worklist has 1525 nodes.
+Now handling field references
+Worklist has 458 nodes.
+Now handling field references
+Worklist has 308 nodes.
+Now handling field references
+Worklist has 178 nodes.
+Now handling field references
+Worklist has 18 nodes.
+Now handling field references
+[Spark] Propagation in 207.6 seconds.
+[Spark] Solution found in 209.5 seconds.
+[Spark] Number of reachable methods: 28451
+size of original spark is: 173774
+Total time to finish: 240.97
+=================================================
+# edges = 14423
+=================================================
+maximum resident set size: 2962116
+

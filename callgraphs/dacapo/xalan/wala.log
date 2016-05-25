@@ -1,0 +1,9 @@
+running wala for dacapo/xalan
+...
+[Wala] Solution found in 18.46 seconds.
+Total time to finish: 22.18
+=================================================
+# edges = 14178
+=================================================
+maximum resident set size: 306252
+

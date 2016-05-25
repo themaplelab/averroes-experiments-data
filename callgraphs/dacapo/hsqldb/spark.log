@@ -1,0 +1,58 @@
+running spark for dacapo/hsqldb
+...
+Generating the call graph from Spark.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/hsqldb/organized-lib.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 51288
+Initially reachable methods: 31
+Classes with at least one reachable method: 14
+[Spark] Pointer Assignment Graph in 1.5 seconds.
+Total types: 6970
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 232
+FieldRefNodes: 4
+AllocNodes: 67
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 71 nodes.
+Now handling field references
+Worklist has 2017 nodes.
+Now handling field references
+Worklist has 5077 nodes.
+Now handling field references
+Worklist has 5206 nodes.
+Now handling field references
+Worklist has 7180 nodes.
+Now handling field references
+Worklist has 6730 nodes.
+Now handling field references
+Worklist has 5257 nodes.
+Now handling field references
+Worklist has 4451 nodes.
+Now handling field references
+Worklist has 2068 nodes.
+Now handling field references
+Worklist has 1049 nodes.
+Now handling field references
+Worklist has 383 nodes.
+Now handling field references
+Worklist has 41 nodes.
+Now handling field references
+Worklist has 7 nodes.
+Now handling field references
+Worklist has 3 nodes.
+Now handling field references
+[Spark] Propagation in 214.3 seconds.
+[Spark] Solution found in 216.2 seconds.
+[Spark] Number of reachable methods: 29044
+size of original spark is: 192382
+Total time to finish: 252.02
+=================================================
+# edges = 10078
+=================================================
+maximum resident set size: 2930280
+

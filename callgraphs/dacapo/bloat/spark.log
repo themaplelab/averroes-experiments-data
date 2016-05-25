@@ -1,0 +1,52 @@
+running spark for dacapo/bloat
+...
+Generating the call graph from Spark.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/bloat/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/bloat/organized-lib.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 25401
+Initially reachable methods: 8
+Classes with at least one reachable method: 3
+[Spark] Pointer Assignment Graph in 0.8 seconds.
+Total types: 3362
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 19
+FieldRefNodes: 1
+AllocNodes: 5
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 5 nodes.
+Now handling field references
+Worklist has 3155 nodes.
+Now handling field references
+Worklist has 4858 nodes.
+Now handling field references
+Worklist has 4520 nodes.
+Now handling field references
+Worklist has 4570 nodes.
+Now handling field references
+Worklist has 3319 nodes.
+Now handling field references
+Worklist has 1126 nodes.
+Now handling field references
+Worklist has 1216 nodes.
+Now handling field references
+Worklist has 549 nodes.
+Now handling field references
+Worklist has 60 nodes.
+Now handling field references
+Worklist has 1 nodes.
+Now handling field references
+[Spark] Propagation in 94.0 seconds.
+[Spark] Solution found in 95.4 seconds.
+[Spark] Number of reachable methods: 14919
+size of original spark is: 97690
+Total time to finish: 117.04
+=================================================
+# edges = 14519
+=================================================
+maximum resident set size: 1708252
+

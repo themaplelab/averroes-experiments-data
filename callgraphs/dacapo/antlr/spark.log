@@ -1,0 +1,56 @@
+running spark for dacapo/antlr
+...
+Generating the call graph from Spark.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-lib.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 47505
+Initially reachable methods: 8
+Classes with at least one reachable method: 3
+[Spark] Pointer Assignment Graph in 0.8 seconds.
+Total types: 6584
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 19
+FieldRefNodes: 1
+AllocNodes: 5
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 5 nodes.
+Now handling field references
+Worklist has 3142 nodes.
+Now handling field references
+Worklist has 4314 nodes.
+Now handling field references
+Worklist has 3461 nodes.
+Now handling field references
+Worklist has 6742 nodes.
+Now handling field references
+Worklist has 5784 nodes.
+Now handling field references
+Worklist has 4442 nodes.
+Now handling field references
+Worklist has 2755 nodes.
+Now handling field references
+Worklist has 788 nodes.
+Now handling field references
+Worklist has 363 nodes.
+Now handling field references
+Worklist has 300 nodes.
+Now handling field references
+Worklist has 144 nodes.
+Now handling field references
+Worklist has 18 nodes.
+Now handling field references
+[Spark] Propagation in 228.4 seconds.
+[Spark] Solution found in 230.0 seconds.
+[Spark] Number of reachable methods: 26218
+size of original spark is: 156231
+Total time to finish: 259.14
+=================================================
+# edges = 7038
+=================================================
+maximum resident set size: 2840128
+

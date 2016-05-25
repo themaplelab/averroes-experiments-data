@@ -1,0 +1,9 @@
+running wala-averroes for specjvm/javac
+...
+[Wala] Solution found in 9.18 seconds.
+Total time to finish: 10.3
+=================================================
+# edges = 8692
+=================================================
+maximum resident set size: 195172
+

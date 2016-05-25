@@ -1,0 +1,9 @@
+running wala-averroes for dacapo/antlr
+...
+[Wala] Solution found in 6.39 seconds.
+Total time to finish: 7.51
+=================================================
+# edges = 6982
+=================================================
+maximum resident set size: 232656
+

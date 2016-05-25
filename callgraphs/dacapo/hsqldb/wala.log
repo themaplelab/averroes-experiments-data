@@ -1,0 +1,9 @@
+running wala for dacapo/hsqldb
+...
+[Wala] Solution found in 18.73 seconds.
+Total time to finish: 22.13
+=================================================
+# edges = 8399
+=================================================
+maximum resident set size: 272648
+

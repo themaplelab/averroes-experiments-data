@@ -1,0 +1,53 @@
+running doop-averroes for dacapo/pmd
+...
+Spawning process [/u/karim/workspace/doop/alt-run-averroes, 1.6, dacapo.pmd.Main2, all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-app.jar, all-output-1.6/1/benchmarks-averroes/dacapo/pmd/placeholder-lib.jar]
+clearing all cached results ...
+running dacapo benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/pmd/placeholder-lib.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/pmd/averroes-lib-class.jar) in cache/input-facts/jre1.6/04887970ea4bb42058927b2ab8a713fb7ca039b88f366bad0f134688bb61072b ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/pmd/placeholder-lib.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/pmd/averroes-lib-class.jar
+elapsed time: 9.17s
+creating database in cache/input-database/jre1.6/04887970ea4bb42058927b2ab8a713fb7ca039b88f366bad0f134688bb61072b ...
+elapsed time: 0.93s
+loading fact declarations ...
+elapsed time: 5.49s
+loading facts ...
+elapsed time: 4.30s
+setting main class to dacapo.pmd.Main2
+loading context-insensitive declarations...
+elapsed time: 4.15s
+loading context-insensitive delta rules...
+elapsed time: 5.95s
+loading reflection delta rules...
+elapsed time: 4.57s
+loading client delta rules...
+elapsed time: 2.59s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 16.29s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-app.jar
+making database available at last-analysis
+array index points-to                     6179
+call graph edges (context-insensitive)    11098
+call graph edges (context-sensitive)      11098
+instance field points-to                  31906
+reachable methods (context-insensitive)   2574
+reachable methods (context-sensitive)     2574
+reachable variables (context-insensitive) 17958
+reachable variables (context-sensitive)   17958
+static field points-to                    314
+retrieving call graph edges ...
+elapsed time: 5.57s
+retrieving entry points ...
+elapsed time: 5.16s
+Total time to finish: 116.27
+=================================================
+# edges = 5246
+=================================================
+maximum resident set size: 3775104
+making the database of doop-averroes available at all-output-1.6/1/callgraphs/dacapo/pmd/doop-averroes.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 37M	../doop/cache/analysis
+

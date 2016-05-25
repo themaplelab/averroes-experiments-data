@@ -1,0 +1,9 @@
+running wala for dacapo/pmd
+...
+[Wala] Solution found in 17.05 seconds.
+Total time to finish: 21.25
+=================================================
+# edges = 7942
+=================================================
+maximum resident set size: 280016
+

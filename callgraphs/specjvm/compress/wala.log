@@ -1,0 +1,9 @@
+running wala for specjvm/compress
+...
+[Wala] Solution found in 3.45 seconds.
+Total time to finish: 6.53
+=================================================
+# edges = 53
+=================================================
+maximum resident set size: 200308
+

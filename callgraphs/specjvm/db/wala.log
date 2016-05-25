@@ -1,0 +1,9 @@
+running wala for specjvm/db
+...
+[Wala] Solution found in 3.33 seconds.
+Total time to finish: 6.59
+=================================================
+# edges = 71
+=================================================
+maximum resident set size: 210456
+

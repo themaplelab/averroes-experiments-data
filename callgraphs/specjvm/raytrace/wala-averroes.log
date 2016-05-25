@@ -1,0 +1,9 @@
+running wala-averroes for specjvm/raytrace
+...
+[Wala] Solution found in 1.83 seconds.
+Total time to finish: 2.97
+=================================================
+# edges = 435
+=================================================
+maximum resident set size: 135688
+

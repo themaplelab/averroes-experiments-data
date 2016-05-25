@@ -1,0 +1,43 @@
+running spark-averroes for specjvm/javac
+...
+Generating the call graph from SparkAverroes.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/javac/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/javac/placeholder-lib.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/javac/averroes-lib-class.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 1490
+Initially reachable methods: 8
+Classes with at least one reachable method: 5
+[Spark] Pointer Assignment Graph in 1.1 seconds.
+Total types: 322
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 20
+FieldRefNodes: 3
+AllocNodes: 5
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 6 nodes.
+Now handling field references
+Worklist has 346 nodes.
+Now handling field references
+Worklist has 1397 nodes.
+Now handling field references
+Worklist has 1565 nodes.
+Now handling field references
+Worklist has 295 nodes.
+Now handling field references
+Worklist has 3 nodes.
+Now handling field references
+[Spark] Propagation in 8.2 seconds.
+[Spark] Solution found in 8.4 seconds.
+[Spark] Number of reachable methods: 1375
+size of original spark is: 9799
+Total time to finish: 12.38
+=================================================
+# edges = 8693
+=================================================
+maximum resident set size: 239208
+

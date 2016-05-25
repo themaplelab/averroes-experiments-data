@@ -1,0 +1,9 @@
+running wala for specjvm/jess
+...
+[Wala] Solution found in 5.75 seconds.
+Total time to finish: 8.68
+=================================================
+# edges = 2341
+=================================================
+maximum resident set size: 230776
+

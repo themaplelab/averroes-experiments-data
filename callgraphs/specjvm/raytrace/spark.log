@@ -1,0 +1,56 @@
+running spark for specjvm/raytrace
+...
+Generating the call graph from Spark.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/raytrace/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/specjvm/raytrace/organized-lib.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 45678
+Initially reachable methods: 13
+Classes with at least one reachable method: 6
+[Spark] Pointer Assignment Graph in 0.8 seconds.
+Total types: 6405
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 33
+FieldRefNodes: 2
+AllocNodes: 10
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 11 nodes.
+Now handling field references
+Worklist has 2928 nodes.
+Now handling field references
+Worklist has 3667 nodes.
+Now handling field references
+Worklist has 3551 nodes.
+Now handling field references
+Worklist has 5434 nodes.
+Now handling field references
+Worklist has 4233 nodes.
+Now handling field references
+Worklist has 3358 nodes.
+Now handling field references
+Worklist has 2185 nodes.
+Now handling field references
+Worklist has 784 nodes.
+Now handling field references
+Worklist has 371 nodes.
+Now handling field references
+Worklist has 300 nodes.
+Now handling field references
+Worklist has 141 nodes.
+Now handling field references
+Worklist has 18 nodes.
+Now handling field references
+[Spark] Propagation in 218.2 seconds.
+[Spark] Solution found in 219.8 seconds.
+[Spark] Number of reachable methods: 24864
+size of original spark is: 146171
+Total time to finish: 247.25
+=================================================
+# edges = 435
+=================================================
+maximum resident set size: 2623140
+

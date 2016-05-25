@@ -1,0 +1,43 @@
+running spark-averroes for dacapo/chart
+...
+Generating the call graph from SparkAverroes.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/chart/placeholder-lib.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/chart/averroes-lib-class.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 6510
+Initially reachable methods: 4
+Classes with at least one reachable method: 4
+[Spark] Pointer Assignment Graph in 1.1 seconds.
+Total types: 992
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 15
+FieldRefNodes: 2
+AllocNodes: 4
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 4 nodes.
+Now handling field references
+Worklist has 133 nodes.
+Now handling field references
+Worklist has 663 nodes.
+Now handling field references
+Worklist has 464 nodes.
+Now handling field references
+Worklist has 74 nodes.
+Now handling field references
+Worklist has 7 nodes.
+Now handling field references
+[Spark] Propagation in 8.0 seconds.
+[Spark] Solution found in 8.9 seconds.
+[Spark] Number of reachable methods: 1937
+size of original spark is: 5560
+Total time to finish: 14.96
+=================================================
+# edges = 2674
+=================================================
+maximum resident set size: 250424
+

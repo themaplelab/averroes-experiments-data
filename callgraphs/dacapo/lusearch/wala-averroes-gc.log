@@ -1,0 +1,9 @@
+Java HotSpot(TM) 64-Bit Server VM (25.91-b14) for linux-amd64 JRE (1.8.0_91-b14), built on Apr  1 2016 00:57:21 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 10239976k(3861756k free), swap 4192252k(4192252k free)
+CommandLine flags: -XX:InitialHeapSize=163839616 -XX:MaxHeapSize=2621433856 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops 
+1.474: [GC (Allocation Failure)  43136K->11673K(156416K), 0.0386913 secs]
+2.923: [GC (Allocation Failure)  54809K->19567K(156416K), 0.0460997 secs]
+3.458: [GC (Allocation Failure)  62703K->26597K(156416K), 0.0399182 secs]
+3.874: [GC (Allocation Failure)  69733K->32230K(156416K), 0.0990720 secs]
+4.513: [GC (Allocation Failure)  75366K->38463K(156416K), 0.0509279 secs]
+5.223: [GC (Allocation Failure)  81599K->44092K(156416K), 0.0285218 secs]

@@ -1,0 +1,53 @@
+running doop-averroes for dacapo/chart
+...
+Spawning process [/u/karim/workspace/doop/alt-run-averroes, 1.6, dacapo.chart.Main2, all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar, all-output-1.6/1/benchmarks-averroes/dacapo/chart/placeholder-lib.jar]
+clearing all cached results ...
+running dacapo benchmark 
+generating facts (all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/chart/placeholder-lib.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/chart/averroes-lib-class.jar) in cache/input-facts/jre1.6/3b83f15a7702492ec0d7abf8b0352f1080cb808056a8d2b5cd70a9a68107eb95 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/chart/placeholder-lib.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/chart/averroes-lib-class.jar
+elapsed time: 10.56s
+creating database in cache/input-database/jre1.6/3b83f15a7702492ec0d7abf8b0352f1080cb808056a8d2b5cd70a9a68107eb95 ...
+elapsed time: 0.96s
+loading fact declarations ...
+elapsed time: 5.64s
+loading facts ...
+elapsed time: 5.75s
+setting main class to dacapo.chart.Main2
+loading context-insensitive declarations...
+elapsed time: 4.24s
+loading context-insensitive delta rules...
+elapsed time: 6.32s
+loading reflection delta rules...
+elapsed time: 4.92s
+loading client delta rules...
+elapsed time: 2.72s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 14.82s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/dacapo/chart/organized-app.jar
+making database available at last-analysis
+array index points-to                     7719
+call graph edges (context-insensitive)    7612
+call graph edges (context-sensitive)      7612
+instance field points-to                  11336
+reachable methods (context-insensitive)   1937
+reachable methods (context-sensitive)     1937
+reachable variables (context-insensitive) 13975
+reachable variables (context-sensitive)   13975
+static field points-to                    5533
+retrieving call graph edges ...
+elapsed time: 5.70s
+retrieving entry points ...
+elapsed time: 5.30s
+Total time to finish: 122.27
+=================================================
+# edges = 2674
+=================================================
+maximum resident set size: 4527392
+making the database of doop-averroes available at all-output-1.6/1/callgraphs/dacapo/chart/doop-averroes.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 46M	../doop/cache/analysis
+

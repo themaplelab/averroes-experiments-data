@@ -1,0 +1,56 @@
+running spark for dacapo/pmd
+...
+Generating the call graph from Spark.
+
+Preparing classes ...
+Adding application archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-app.jar
+Adding placeholder library archive: /home/aec/Desktop/averroes-home/all-output-1.6/1/benchmarks-averroes/dacapo/pmd/organized-lib.jar
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 53877
+Initially reachable methods: 8
+Classes with at least one reachable method: 3
+[Spark] Pointer Assignment Graph in 0.7 seconds.
+Total types: 7687
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 19
+FieldRefNodes: 1
+AllocNodes: 5
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 5 nodes.
+Now handling field references
+Worklist has 3356 nodes.
+Now handling field references
+Worklist has 4700 nodes.
+Now handling field references
+Worklist has 4426 nodes.
+Now handling field references
+Worklist has 6185 nodes.
+Now handling field references
+Worklist has 5444 nodes.
+Now handling field references
+Worklist has 4025 nodes.
+Now handling field references
+Worklist has 3061 nodes.
+Now handling field references
+Worklist has 1182 nodes.
+Now handling field references
+Worklist has 426 nodes.
+Now handling field references
+Worklist has 319 nodes.
+Now handling field references
+Worklist has 167 nodes.
+Now handling field references
+Worklist has 18 nodes.
+Now handling field references
+[Spark] Propagation in 222.6 seconds.
+[Spark] Solution found in 224.7 seconds.
+[Spark] Number of reachable methods: 29063
+size of original spark is: 177195
+Total time to finish: 258.57
+=================================================
+# edges = 7873
+=================================================
+maximum resident set size: 2855784
+

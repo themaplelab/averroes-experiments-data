@@ -1,0 +1,56 @@
+running doop for dacapo/antlr
+...
+Spawning process [/u/karim/workspace/doop/alt-run, 1.6, dacapo.antlr.Main2, all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-app.jar, all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-lib.jar]
+clearing all cached results ...
+running doop and generating output for graph generation for benchmark all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-app.jar ...
+running dacapo benchmark 
+adding dynamic file benchmarks/dacapo/antlr.dynamic
+generating facts (all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-app.jar -l all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-lib.jar) in cache/input-facts/jre1.6/4cbcfd35b4b1355eb4e9dcc51b5488fa0ea3da6c70697e71abd576405ab2a9c4 ...
+Adding archive: all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-app.jar
+Adding archive for resolving: all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-lib.jar
+elapsed time: 115.95s
+creating database in cache/input-database/jre1.6/4cbcfd35b4b1355eb4e9dcc51b5488fa0ea3da6c70697e71abd576405ab2a9c4 ...
+elapsed time: 2.27s
+loading fact declarations ...
+elapsed time: 3.42s
+loading facts ...
+elapsed time: 37.53s
+setting main class to dacapo.antlr.Main2
+loading context-insensitive declarations...
+elapsed time: 6.05s
+loading context-insensitive delta rules...
+elapsed time: 7.70s
+loading reflection delta rules...
+elapsed time: 12.02s
+loading client delta rules...
+elapsed time: 5.29s
+loading context-insensitive rules ...
+MBBENCH logicblox START
+elapsed time: 106.80s
+MBBENCH logicblox STOP
+making database available at results/context-insensitive/jre1.6/all-output-1.6/1/benchmarks-averroes/dacapo/antlr/organized-app.jar
+making database available at last-analysis
+array index points-to                     27413
+call graph edges (context-insensitive)    64163
+call graph edges (context-sensitive)      64172
+instance field points-to                  3806135
+reachable methods (context-insensitive)   9388
+reachable methods (context-sensitive)     9388
+reachable variables (context-insensitive) 89893
+reachable variables (context-sensitive)   89893
+static field points-to                    6515
+retrieving call graph edges ...
+elapsed time: 8.69s
+retrieving reflective call graph edges ...
+elapsed time: 7.13s
+retrieving entry points ...
+elapsed time: 6.27s
+Total time to finish: 398.69
+=================================================
+# edges = 6984
+=================================================
+maximum resident set size: 24841776
+making the database of doop available at all-output-1.6/1/callgraphs/dacapo/antlr/doop.tar.gz ...
+tar: Removing leading `../' from member names
+Disk usage stats: 386M	../doop/cache/analysis
+
